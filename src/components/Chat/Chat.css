@@ -1,0 +1,13 @@
+.chat-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: scroll;
+    margin: 16px;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    bottom: 64px;
+    z-index: -1;
+}

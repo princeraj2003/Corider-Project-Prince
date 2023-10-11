@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+.App {
+    font-family: 'Mulish', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.border {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #E5E5E0;
+    height: 1px;
+}
+
+.top-block {
+    margin: 16px;
+    flex: 0 1 auto;
+    background-color: var(--bg-col);
+}
+
+.middle-block{
+    height: 100%;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.bottom-block {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    flex: 0 1 42px;
+}
