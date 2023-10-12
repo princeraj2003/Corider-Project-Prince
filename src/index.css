@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* hide scroll bar of chat list */
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+.hideScroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+/* small traingle of attachment popup */
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 15px solid;
+}
